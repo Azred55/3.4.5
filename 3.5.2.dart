@@ -1,4 +1,4 @@
-//Aufgabe 2
+//Aufgabe 1
 
 void triplePrint(String text) {
   for (int i = 0; i < 3; i++) {
