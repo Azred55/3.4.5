@@ -1,11 +1,13 @@
-// Aufgabe 1
+//Aufgabe 2
 
-void printNumber(int zahl) {
-  print("Die Zahl lautet: $zahl");
+void triplePrint(String text) {
+  for (int i = 0; i < 3; i++) {
+    print(text);
+  }
 }
 
 void main() {
-  printNumber(5);
-  printNumber(55);
-  printNumber(97);
+  triplePrint("Hallo");
+  triplePrint("Feierabend");
+  triplePrint("triplePrint Test!");
 }
